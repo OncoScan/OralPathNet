@@ -38,6 +38,30 @@ python train.py \
   --model_output ./models/oralpathnet.h5
 ```
 
+## 📁 Folder Hierarchy
+```text
+assets
+├── oc_cnn_model.keras
+├── sample-oscc-400x.jpg
+└── workflow-diagram.png
+LICENSE
+Readme.md
+src
+├── cnn.py
+├── gan.py
+├── model.py
+├── netbo.py
+├── readme
+└── vgg.py
+train.py
+```
+- `assets` consists of final built model in keras.
+  - `workflow-diagram` shows the depicted workflow for training the model.
+- `src` holds the training code via layers such as CNN, GAN, VGG and NetBo
+- `train.py` is the code to train the model from scratch to obtain reproducible results.
+- `LICENSE` MIT licensed code.
+- `Readme.md` Documentation for the readme and project.
+
 ## 🧠 Architecture
 
 OralPathNet employs a multi-layer CNN built in TensorFlow / Keras:
