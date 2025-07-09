@@ -38,3 +38,29 @@ python train.py \
   --model_output ./models/oralpathnet.h5
 ```
 
+## 🧠 Architecture
+
+OralPathNet employs a multi-layer CNN built in TensorFlow / Keras:
+It equips with GAN and VGG for efficient and accuracy predictions.
+
+## 📦 Deployment
+
+ Use `predict.py` to perform inference on new images.
+
+Load model with:
+
+```python
+model = tf.keras.models.load_model(args.model_path)
+```
+
+## ✍️ Contributing
+
+Your contributions are welcome!
+
+- Fork and submit PRs
+- Report bugs via Issues
+- Suggest enhancements or extra modules (e.g., segmentation, interpretability)
+
+## 📝 Licensing
+
+MIT License — see LICENSE in this repo.
