@@ -3,6 +3,7 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
+# Note: This was run via google colab
 train_dir = '/content/drive/MyDrive/img_data/histo/first_set'
 test_dir = '/content/drive/MyDrive/img_data/histo/second_set'
 img_height, img_width = 224, 224  # Set this to your model's expected input size
